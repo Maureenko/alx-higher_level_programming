@@ -4,5 +4,5 @@ for i in range(10):
         if i > 7:
             print("{:d}{:d}".format(i, j), end="")
         else:
-             print("{:d}{:d}".format(i, j), end=", ")
+            print("{:d}{:d}".format(i, j), end=", ")
 print()
