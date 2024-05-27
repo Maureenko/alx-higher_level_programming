@@ -2,18 +2,21 @@
 """Defines a class Square"""
 
 
-def __init__(self, size=0):
-    """Initializes a square
+class Square:
+    """Represents a square"""
 
-    Args:
-        size(int): size of the new square.
-    """
-    if not isinstance(size, int):
-        raise TypeError("size must be an integer.")
-    elif size < 0:
-        raise ValueError("size must be >= 0")
+    def __init__(self, size=0):
+        """Initializes a square
 
-    def area(self):
-        """Return the current square area"""
+        Args:
+            size(int): size of the new square.
+        """
+        if not isinstance(size, int):
+            raise TypeError("size must be an integer.")
+        elif size < 0:
+            raise ValueError("size must be >= 0")
 
-        return (self.__size * self.__size)
+        def area(self):
+            """Return the current square area"""
+
+            return (self.__size * self.__size)
