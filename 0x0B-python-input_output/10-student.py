@@ -23,4 +23,3 @@ class Student:
                 if key in attrs:
                     my_dict[key] = value
             return my_dict
-        
